@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ADD8E6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 30px 10px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(active) {
+  background-color: #ADD8E6;
+}
+
+body {
+    background-color: #E6E6FA;
+    font-family: sans-serif, verdana;
+    display: block;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ADD8E6;
+}
+
+.container {
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+
+h1 {
+  color: #9370DB;
+  font-size: 50px;
+  padding: 47px 0 30px 100px;
+  text-align: center;
+}
+
+h2 {
+  color: #0082cb;
+  font-size: 30px;
+  padding: 30px 20px 20px 40px;
+  text-align: center;
+}
+
+h3, h4 {
+  color: #0082cb;
+  font-size: 30px;
+  padding: 20px 0 20px 40px;
+  text-align: center;
+}
+
+#how-it-works {
+color: black;
+border: 10px solid black;
+}
+
+div.product {
+  width: 430px;
+  padding: 20px 10px 20px 129px;
+  border: 1px solid black;
+  margin: 0;
+  font-size: 24px
+}
+
+.grid {
+    display: flex;
+    text-align: center
+}
+
+.div {
+text-align: center;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-items: center;
+    }
+
+.btn {
+position: relative;
+font-size: 18px;
+display: inline-block;
+padding: 10px 20px;
+margin: 10px 0;
+color: white;
+text-transform: uppercase;
+font-family: papyrus, arial;
+border-radius: 15px;
+background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+.logo > img {
+    width: 50%;
+    height: 100%;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+}
+
+  @media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+  @media only screen and (orientation: landscape) {
+  body {
+    background-color: #E6E6FA;
+  }
